@@ -13,9 +13,10 @@
 		6550B1A0A2C80EA8840EE5988C422E60 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A7BE07A93D389088D0712B8DA370ED /* CoreData.framework */; };
 		7222BB28E4559151556324322F6C4469 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3792A683529B65B8837AD54D85BA6912 /* Foundation.framework */; };
 		7F5923EC6EE85D453300EAF2C870FD32 /* amalcoci2017-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1B00EB07650BAC753512582D479C70 /* amalcoci2017-dummy.m */; };
-		848606F11EB31EF200355C7A /* article.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 848606EF1EB31EF200355C7A /* article.xcdatamodeld */; };
-		848606F31EB31EF600355C7A /* ArticleExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848606F21EB31EF600355C7A /* ArticleExt.swift */; };
 		848606F51EB31EFC00355C7A /* ArticleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848606F41EB31EFC00355C7A /* ArticleManager.swift */; };
+		8486071F1EB33BF300355C7A /* article.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8486071D1EB33BF300355C7A /* article.xcdatamodeld */; };
+		848607261EB346F900355C7A /* Article+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848607241EB346F900355C7A /* Article+CoreDataClass.swift */; };
+		848607271EB346F900355C7A /* Article+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848607251EB346F900355C7A /* Article+CoreDataProperties.swift */; };
 		A85522ADEC183CB2317C0EBBA9047AA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3792A683529B65B8837AD54D85BA6912 /* Foundation.framework */; };
 		AEB7A442DF2F24740871F4F3686AE3D8 /* Pods-amalcoci2017_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F08705728766AC489617DCFEE02A17B1 /* Pods-amalcoci2017_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE5966C5DA746F0B5C218065811DE084 /* Pods-amalcoci2017_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECDDA5EFDCAC086ACB252A54352029FE /* Pods-amalcoci2017_Example-dummy.m */; };
@@ -46,9 +47,10 @@
 		81125236CC5CE07531402A0814C65EFF /* Pods-amalcoci2017_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-amalcoci2017_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		81EA073FDB12613514C1AEA627233173 /* Pods-amalcoci2017_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-amalcoci2017_Example-umbrella.h"; sourceTree = "<group>"; };
 		83747220A8950BA6FED1C2A131C03D4D /* Pods-amalcoci2017_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-amalcoci2017_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		848606F01EB31EF200355C7A /* article.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = article.xcdatamodel; sourceTree = "<group>"; };
-		848606F21EB31EF600355C7A /* ArticleExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleExt.swift; sourceTree = "<group>"; };
 		848606F41EB31EFC00355C7A /* ArticleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleManager.swift; sourceTree = "<group>"; };
+		8486071E1EB33BF300355C7A /* article.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = article.xcdatamodel; sourceTree = "<group>"; };
+		848607241EB346F900355C7A /* Article+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Article+CoreDataClass.swift"; sourceTree = "<group>"; };
+		848607251EB346F900355C7A /* Article+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Article+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		92090C2FA47BBEFA0B97180C0093EB78 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DFC1B1D44B7592763AC69288A017279 /* Pods-amalcoci2017_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-amalcoci2017_Example.modulemap"; sourceTree = "<group>"; };
@@ -102,9 +104,10 @@
 		0BDF704CA6F39D736167ACF001CA915D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				848606F21EB31EF600355C7A /* ArticleExt.swift */,
 				848606F41EB31EFC00355C7A /* ArticleManager.swift */,
-				848606EF1EB31EF200355C7A /* article.xcdatamodeld */,
+				848607241EB346F900355C7A /* Article+CoreDataClass.swift */,
+				848607251EB346F900355C7A /* Article+CoreDataProperties.swift */,
+				8486071D1EB33BF300355C7A /* article.xcdatamodeld */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -360,10 +363,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848606F11EB31EF200355C7A /* article.xcdatamodeld in Sources */,
 				7F5923EC6EE85D453300EAF2C870FD32 /* amalcoci2017-dummy.m in Sources */,
+				848607271EB346F900355C7A /* Article+CoreDataProperties.swift in Sources */,
 				848606F51EB31EFC00355C7A /* ArticleManager.swift in Sources */,
-				848606F31EB31EF600355C7A /* ArticleExt.swift in Sources */,
+				848607261EB346F900355C7A /* Article+CoreDataClass.swift in Sources */,
+				8486071F1EB33BF300355C7A /* article.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -741,12 +745,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		848606EF1EB31EF200355C7A /* article.xcdatamodeld */ = {
+		8486071D1EB33BF300355C7A /* article.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				848606F01EB31EF200355C7A /* article.xcdatamodel */,
+				8486071E1EB33BF300355C7A /* article.xcdatamodel */,
 			);
-			currentVersion = 848606F01EB31EF200355C7A /* article.xcdatamodel */;
+			currentVersion = 8486071E1EB33BF300355C7A /* article.xcdatamodel */;
 			path = article.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

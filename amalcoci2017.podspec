@@ -39,8 +39,10 @@ Voici les documentations dont vous aurez besoin pour finir la journée :
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'amalcoci2017/Classes/**/*'
-  
+  s.source_files = 'amalcoci2017/Classes/**/*.swift'
+  s.resource_bundles = {
+    'amalcoci2017' => ['amalcoci2017/Classes/*.xcdatamodeld']
+  }
   # s.resource_bundles = {
   #   'amalcoci2017' => ['amalcoci2017/Assets/*.png']
   # }
