@@ -35,7 +35,7 @@ public class ArticleManager
         
     }
 
-    public func newArticle(_ title:String, _ content:String,_ lang:String?,_ image:NSData?,_ atCreate:NSData?, _ atModefied : NSData? ) -> Article
+    public func newArticle(_ title:String, _ content:String,_ lang:String?,_ image:NSData?,_ atCreate:NSDate?, _ atModefied : NSDate? ) -> Article
     {
         let entity = NSEntityDescription.entity(forEntityName: "Article", in: managedObjectContext)
         let article = NSManagedObject(entity: entity!,insertInto: managedObjectContext)
