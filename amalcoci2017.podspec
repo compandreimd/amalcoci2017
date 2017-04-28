@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'amalcoci2017'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of amalcoci2017.'
+  s.version          = '1.0.0'
+  s.summary          = 'Day08 of amalcoci.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,16 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Maintenant que vous avez découvert les pods nous allons apprendre à en créer un.
+Toujours grace à Cocoapods! Si vous avez déjà oublié ce qu’est un pod c’est un
+paquet qui est donc géré par un gestionnaire de paquets ici Cocoapods.
+L’objectif de la journée sera d’en créer un qui utilisera le framework CoreData
+pour apprendre a utiliser la persistance des données et les modeles.
+Le but de la journée étant de créer un gestionaire d’articles qui servira d’interface
+pour le D09.
+Voici les documentations dont vous aurez besoin pour finir la journée :
+    • Doc Cocoapods
+    • CoreData
                        DESC
 
   s.homepage         = 'https://github.com/compandreimd/amalcoci2017'
@@ -37,6 +46,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'CoreData'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

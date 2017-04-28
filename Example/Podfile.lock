@@ -1,0 +1,16 @@
+PODS:
+  - amalcoci2017 (1.0.0)
+
+DEPENDENCIES:
+  - amalcoci2017 (from `../`)
+
+EXTERNAL SOURCES:
+  amalcoci2017:
+    :path: ../
+
+SPEC CHECKSUMS:
+  amalcoci2017: 0f33e43631e8b4652528514e66e1f30f363fbf90
+
+PODFILE CHECKSUM: 653168360b3d7492e45bbeb8ea946023a3f4fd65
+
+COCOAPODS: 1.2.1

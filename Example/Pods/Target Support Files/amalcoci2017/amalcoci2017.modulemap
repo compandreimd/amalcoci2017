@@ -1,0 +1,6 @@
+framework module amalcoci2017 {
+  umbrella header "amalcoci2017-umbrella.h"
+
+  export *
+  module * { export * }
+}

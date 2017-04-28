@@ -1,0 +1,23 @@
+{
+  "name": "amalcoci2017",
+  "version": "1.0.0",
+  "summary": "Day08 of amalcoci.",
+  "description": "Maintenant que vous avez découvert les pods nous allons apprendre à en créer un.\nToujours grace à Cocoapods! Si vous avez déjà oublié ce qu’est un pod c’est un\npaquet qui est donc géré par un gestionnaire de paquets ici Cocoapods.\nL’objectif de la journée sera d’en créer un qui utilisera le framework CoreData\npour apprendre a utiliser la persistance des données et les modeles.\nLe but de la journée étant de créer un gestionaire d’articles qui servira d’interface\npour le D09.\nVoici les documentations dont vous aurez besoin pour finir la journée :\n    • Doc Cocoapods\n    • CoreData",
+  "homepage": "https://github.com/compandreimd/amalcoci2017",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "compandreimd": "compandreimd@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/compandreimd/amalcoci2017.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "amalcoci2017/Classes/**/*",
+  "frameworks": "CoreData"
+}
