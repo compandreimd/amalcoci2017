@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'amalcoci2017_Example' do
+  pod 'amalcoci2017', :path => '../'
+
+  target 'amalcoci2017_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
